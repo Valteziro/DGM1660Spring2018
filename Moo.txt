@@ -1,10 +1,6 @@
 I'm a cow
-<<<<<<< HEAD
 Definately not a dog
 Possibly a cat though
 also a fish
 but not a whale
 maybe a snek
-=======
-Definately not a dog
->>>>>>> NEWBRANCH
