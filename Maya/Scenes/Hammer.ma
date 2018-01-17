@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Hammer.ma
-//Last modified: Wed, Jan 17, 2018 02:10:13 PM
+//Last modified: Wed, Jan 17, 2018 02:11:05 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "53E373DF-4872-731E-0379-DEA27965E643";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 38.85292113429648 9.4186056403919629 7.6917919810029893 ;
-	setAttr ".r" -type "double3" -11.738352730723131 82.999999999975543 -1.3049035108357352e-014 ;
+	setAttr ".t" -type "double3" 32.484873103686745 24.763091713223851 1.7122110590688902 ;
+	setAttr ".r" -type "double3" -35.138352730733764 91.799999999974162 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CA1C0E2C-4CB6-903A-D62A-F5ADFBC52ABD";
 	setAttr -k off ".v" no;
