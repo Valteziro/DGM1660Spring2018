@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: SteampunkWaterTowerUVs.ma
-//Last modified: Fri, Apr 27, 2018 05:40:14 PM
+//Name: SteampunkWaterToweranimated.ma
+//Last modified: Fri, Apr 27, 2018 05:40:27 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -17997,4 +17997,4 @@ connectAttr "pCylinderShape5.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape6.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPipe17Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
-// End of SteampunkWaterTowerUVs.ma
+// End of SteampunkWaterToweranimated.ma
