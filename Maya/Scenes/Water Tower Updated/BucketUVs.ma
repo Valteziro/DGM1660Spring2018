@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: BucketUVs.ma
-//Last modified: Fri, Apr 27, 2018 06:35:05 PM
+//Last modified: Fri, Apr 27, 2018 06:35:59 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "73A0CC08-4488-B8B3-7319-79B6BA089E72";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.3300233630290901 1.0758773690085457 3.2853979013773484 ;
-	setAttr ".r" -type "double3" 697.46164729266695 5794.9999999980528 -9.7068508330113173e-016 ;
+	setAttr ".t" -type "double3" 7.3358548129856249 2.6656685913378055 -4.6764472268122308 ;
+	setAttr ".r" -type "double3" 701.66164729284969 5888.5999999975202 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "805ADF93-43B3-2932-8DBE-43BA81F21144";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 3.3622334837392263;
+	setAttr ".coi" 9.1490333903914092;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
